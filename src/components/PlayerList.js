@@ -1,6 +1,8 @@
 import Player from "./Player";
+import playerData from "../data/playerData";
+import matchData from "../data/matchData";
 
-function PlayerList() {
+function PlayerList(props) {
   return (
     <section className="PlayerList">
       <h1>Current participating players</h1>
